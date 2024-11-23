@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export async function generateMetadata({ params }) {
-  const { title } = await getWork(params.workId);
+  const resolvedParams = await params;
+  const { title } = await getWork(resolvedParams.workId);
   return {
     title: title
   };
@@ -12,44 +13,61 @@ export async function generateMetadata({ params }) {
 export async function generateStaticParams() {
   const works = await getWorks();
   const ids = works.map((work) => ({ workId: String(work.id) }));
-  console.log(ids);
   return ids;
 }
 
 async function PortfolioPage({ params }) {
-  const work = await getWork(params.workId);
+  const resolvedParams = await params;
+  const work = await getWork(resolvedParams.workId);
   return (
-    <div className="w-full h-[calc(100dvh-80px)] flex flex-col items-center justify-center">
+    <div className="w-full h-screen md:h-[calc(100dvh-80px)]  flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 mb-5 rounded-md flex items-center shadow-md">
-          <div className="flex-1 pr-5">
-            <h1 className="text-4xl mb-5 text-gray-600 font-bold">
+        <div className="bg-gray-50 p-5 mb-5 md:rounded-md flex flex-col md:flex-row items-center shadow-md">
+          <div className="flex-1 md:pr-5">
+            <h1 className="text-2xl md:text-4xl mb-5 text-gray-600 font-bold">
               {work.title}
             </h1>
-            <p className="text-grey-200 text-lg mb-10 bg-gray-100 rounded-md p-5 shadow-md">
+            <p className="text-grey-200 text-base md:text-lg mb-5 bg-gray-100  rounded-md p-5 shadow-md">
               {work.body}
+              <span className="block">{work.projectTime}</span>
             </p>
-            <ul className="space-y-2 mb-5">
-              <h3 className="text-lg font-semibold tracking-wide">
+            <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md p-5 mb-5">
+              <h3 className="text-base md:text-lg font-semibold tracking-wider mr-2 mb:0 ">
                 Technologies used:
               </h3>
-              {work.technologiesUsed.map((skill, i) => (
-                <li key={i} className="inline-block mr-2">
-                  <i
-                    className={`${skill.svgIcon} text-blue-500 devicon text-xl`}
-                  ></i>
-                </li>
-              ))}
+              <div className="flex flex-wrap">
+                {work.technologiesUsed.map((skill, i) => (
+                  <li key={i} className="flex items-center mr-2">
+                    <i
+                      className={`${skill.svgIcon}  text-blue-500 devicon text-xl`}
+                    ></i>
+                  </li>
+                ))}
+              </div>
             </ul>
 
-            <div className="flex justify-end">
+            <div className="flex justify-end mb-5">
               <Link
-                className="inline-block bg-blue-500 rounded-md text-gray-100 px-6 py-3 text-lg"
+                className="flex items-center w-full md:w-auto justify-center bg-blue-500 hover:bg-blue-600 rounded-md text-gray-100 px-6 py-3 text-lg"
                 href={work.linkSrc}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View it live
+                <span className="mr-2">View it live</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                  />
+                </svg>
               </Link>
             </div>
           </div>
@@ -64,12 +82,27 @@ async function PortfolioPage({ params }) {
             />
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-center px-5 md:px-0 md:justify-end">
           <Link
             href="/portfolio"
-            className="inline-block rounded-md bg-blue-500 text-gray-100 px-6 py-3 text-lg"
+            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
           >
-            Go back to portfolio
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="size-6 mr-2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+              />
+            </svg>
+
+            <span>Go back to portfolio</span>
           </Link>
         </div>
       </div>

@@ -10,14 +10,14 @@ function AboutPage() {
   return (
     <div className="w-full h-[calc(100dvh-80px)]  flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 rounded-md shadow-md flex items-center">
+        <div className="bg-gray-50 p-5 rounded-md shadow-md flex md:flex-row flex-col items-center">
           <div>
-            <h1 className="text-4xl mb-5 text-gray-600 font-bold">
+            <h1 className="text-2xl tracking-wider md:text-4xl mb-5 text-gray-600 font-bold">
               Bit about myself
             </h1>
 
-            <div className="space-y-4 pr-3">
-              <p>
+            <div className="space-y-4 pr-3 pb-5">
+              <p className="text-grey-200 text-base md:text-lg">
                 Hi, I&apos;m Milan an enthusiastic tech and design enthusiast.
                 With experience at{" "}
                 <span className="font-semibold">Vega IT Solution</span>,{" "}
@@ -28,7 +28,12 @@ function AboutPage() {
               <p>
                 Clean code and simplicity drive my passion. Let&apos;s connect
                 I&apos;m open to freelance opportunities and always eager to
-                learn. Excited about mastering Nextjs for my next adventure! 🚀
+                learn. Excited about mastering{" "}
+                <span className="font-semibold">Nextjs</span> for my next
+                adventure!
+              </p>
+              <p>
+                This is my little corner of the internet. Let&apos;s connect 🚀
               </p>
             </div>
           </div>

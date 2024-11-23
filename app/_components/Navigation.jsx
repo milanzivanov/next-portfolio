@@ -3,12 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-function Navigation() {
+function Navigation({ toggleMobileNav }) {
   const path = usePathname();
 
   return (
     <nav>
-      <ul className="flex gap-4 items-center">
+      <ul className=" gap-4 items-center hidden md:flex">
         <li>
           <Link
             href="/"
@@ -60,6 +60,22 @@ function Navigation() {
           </Link>
         </li>
       </ul>
+      <button onClick={toggleMobileNav} className="flex md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="size-8"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+          />
+        </svg>
+      </button>
     </nav>
   );
 }

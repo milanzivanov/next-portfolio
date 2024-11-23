@@ -7,7 +7,7 @@ function PortfolioCard({ work }) {
   return (
     <div className="bg-gray-100 shadow-md p-5 rounded-md">
       <Link href={`/portfolio/${work.id}`} key={work.id}>
-        <h2 className="text-xl pb-1 font-semibold text-gray-800">
+        <h2 className="tracking-wider text-xl pb-1 font-semibold text-gray-800">
           {work.title}
         </h2>
         <Image
@@ -16,6 +16,7 @@ function PortfolioCard({ work }) {
           width={400}
           height={400}
           alt={work.title}
+          className="object-cover rounded-md"
         />
       </Link>
     </div>
