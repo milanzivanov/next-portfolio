@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "@/public/logo-2021.svg";
+import logo from "@/public/logo.png";
 
 function Logo() {
   return (

@@ -16,6 +16,7 @@ function PortfolioCard({ work }) {
           width={400}
           height={400}
           alt={work.title}
+          priority
           className="object-cover rounded-md"
         />
       </Link>

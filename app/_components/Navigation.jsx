@@ -12,7 +12,7 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/"
-            className={`text-lg capitalize text-grey-600 hover:text-blue-600 ${
+            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
               path === "/" ? "active" : ""
             }`}
           >
@@ -22,7 +22,7 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/about"
-            className={`text-lg capitalize text-grey-600 hover:text-blue-600 ${
+            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
               path === "/about" ? "active" : ""
             }`}
           >
@@ -32,7 +32,7 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/skills"
-            className={`text-lg capitalize text-grey-600 hover:text-blue-600 ${
+            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
               path === "/skills" ? "active" : ""
             }`}
           >
@@ -42,7 +42,7 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/portfolio"
-            className={`text-lg capitalize text-grey-600 hover:text-blue-600 ${
+            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
               path === "/portfolio" ? "active" : ""
             }`}
           >
@@ -52,7 +52,7 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/contact"
-            className={`text-lg capitalize text-grey-600 hover:text-blue-600 ${
+            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
               path === "/contact" ? "active" : ""
             }`}
           >
