@@ -11,7 +11,7 @@ export const metadata = {
 
 function ContactPage() {
   return (
-    <div className="w-full md:h-[calc(100dvh-80px)] h-screen flex md:flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-80px)] flex md:flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
         <div className="bg-gray-50 p-5 rounded-md shadow-md flex flex-col md:flex-row">
           <Image
@@ -71,7 +71,7 @@ function ContactPage() {
           </div>
         </div>
         {/* BTH */}
-        <div className="flex justify-center px-5 md:px-0 md:justify-end mt-5">
+        <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
           <Link
             href="/"
             className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"

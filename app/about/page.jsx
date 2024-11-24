@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import image1 from "@/public/Milan_left.webp";
+import Link from "next/link";
 
 export const metadata = {
   title: "About page"
@@ -8,9 +9,9 @@ export const metadata = {
 
 function AboutPage() {
   return (
-    <div className="w-full h-[calc(100dvh-80px)]  flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-80px)] flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 rounded-md shadow-md flex md:flex-row flex-col items-center">
+        <div className="bg-gray-50 p-5 md:rounded-md shadow-md flex md:flex-row flex-col items-center">
           <div>
             <h1 className="text-2xl tracking-wider md:text-4xl mb-2 text-gray-600 font-bold">
               Bit about myself
@@ -46,6 +47,31 @@ function AboutPage() {
               placeholder="blur"
               quality={80}
             />
+          </div>
+
+          {/* BTH */}
+          <div className="flex justify-center w-full md:px-0 md:justify-end my-5">
+            <Link
+              href="/"
+              className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="size-6 mr-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                />
+              </svg>
+
+              <span>Go back home</span>
+            </Link>
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
           isOpen={isMobileNavOpen}
           setMobileNavOpen={setMobileNavOpen}
         />
-        <div className="flex-1 bg-slate-200">
+        <div className="flex-1 shadow-sm border-t-2 md:border-t-0 bg-slate-200">
           <main className="w-full">{children}</main>
         </div>
       </body>

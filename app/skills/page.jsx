@@ -10,19 +10,22 @@ async function SkillsPage() {
   const skills = await getSkills();
 
   return (
-    <div className="w-full md:h-[calc(100dvh-80px)] h-full flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-80px)] flex flex-col items-center justify-center">
       <div className="w-full">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 mt-5 rounded-md">
+          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md md:rounded-md">
             <h1 className="tracking-wider text-2xl md:text-4xl mb-2 text-gray-600 font-bold">
               Technologies
             </h1>
 
             <p className="pb-5 text-grey-200 text-base md:text-lg">
-              Hire is the list of the tech tools I use for my works.{" "}
-              <span className="font-semibold tracking-wider">React</span> and{" "}
-              <span className="font-semibold tracking-wider">Nextjs</span> are
-              my main focus.
+              Here is a detailed list of the tech tools I regularly use in my
+              work. My primary focus revolves around{" "}
+              <span className="font-semibold tracking-wider">React</span> and
+              <span className="font-semibold tracking-wider">Next.js</span>,
+              which are at the core of most of my projects. These tools help me
+              build dynamic and efficient web applications, making them an
+              essential part of my development process.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-7 gap-5">

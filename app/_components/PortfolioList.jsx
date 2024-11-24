@@ -11,7 +11,7 @@ async function PortfolioList() {
 
   return (
     <>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-5 rounded-md mb-5">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-5 md:rounded-md mb-5">
         {works.map((work) => (
           <PortfolioCard key={work.id} work={work} />
         ))}

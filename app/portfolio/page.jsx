@@ -15,17 +15,25 @@ export default function PortfolioPage() {
           Portfolio
         </h1>
 
-        <p className="text-grey-200 text-lg mb-10 max-w-4xl">
-          Here you can find some of the projects I&apos;ve been working on. I
-          have more and u can look them at my{" "}
+        <p className="text-grey-200 text-base md:text-lg mb-5 md:mb-10">
+          Welcome! Here you&apos;ll find a selection of projects I&apos;ve been
+          working on, showcasing my skills and dedication to development. These
+          projects represent some of the ideas and solutions I&apos;ve brought
+          to life through coding. While this is just a glimpse of my work,
+          I&apos;ve completed many other exciting projects that you can explore
+          on my{" "}
           <Link
             href="https://github.com/milanzivanov"
             target="_blank"
             rel="noreferrer"
             className="text-blue-500"
           >
-            github profile.
-          </Link>
+            GitHub
+          </Link>{" "}
+          profile. There, you&apos;ll find a diverse collection of repositories,
+          ranging from small experiments to fully realized applications. Feel
+          free to check them out to learn more about my approach,
+          problem-solving skills, and the technologies I enjoy working with!
         </p>
       </div>
 
