@@ -47,7 +47,7 @@ async function SkillsPage() {
           {/* BTH */}
           <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
             <Link
-              href="/portfolio"
+              href="/"
               className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
             >
               <svg
@@ -65,7 +65,7 @@ async function SkillsPage() {
                 />
               </svg>
 
-              <span>Go back to portfolio</span>
+              <span>Go back home</span>
             </Link>
           </div>
         </div>

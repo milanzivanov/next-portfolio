@@ -91,7 +91,7 @@ function ContactPage() {
               />
             </svg>
 
-            <span>Go back to portfolio</span>
+            <span>Go back home</span>
           </Link>
         </div>
       </div>
