@@ -5,7 +5,7 @@ export default function MobileNavigation({ isOpen, setMobileNavOpen }) {
 
   return (
     <nav className="absolute inset-0 bg-slate-800 text-white h-screen z-30 flex justify-center items-center flex-col gap-4">
-      <ul className="space-y-4 text-xl">
+      <ul className="space-y-5 text-xl">
         <li onClick={() => setMobileNavOpen(false)}>
           <Link href="/">Home</Link>
         </li>

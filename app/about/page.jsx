@@ -12,7 +12,7 @@ function AboutPage() {
       <div className="max-w-7xl mx-auto">
         <div className="bg-gray-50 p-5 rounded-md shadow-md flex md:flex-row flex-col items-center">
           <div>
-            <h1 className="text-2xl tracking-wider md:text-4xl mb-5 text-gray-600 font-bold">
+            <h1 className="text-2xl tracking-wider md:text-4xl mb-2 text-gray-600 font-bold">
               Bit about myself
             </h1>
 
