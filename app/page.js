@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <div className=" w-full h-[calc(100dvh-80px)] bg-slate-700/20 flex flex-col items-center justify-center">
+    <div className=" w-full h-[calc(100dvh-96px)] bg-slate-700/20 flex flex-col items-center justify-center">
       <div className="absolute inset-0 z-10 bg-slate-700/20"></div>
       <div className="absolute inset-0 z-0">
         <Image
@@ -26,7 +26,7 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="relative z-10 bg-slate-500/10 w-full mb-[80px] py-5">
+      <div className="relative z-10 w-full mb-[80px] py-5">
         <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
             <span className="block text-slate-800">

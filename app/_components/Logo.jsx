@@ -9,8 +9,8 @@ function Logo() {
       <Image
         src={logo}
         alt="Milan personal logo"
-        width="48"
-        height="48"
+        width="38"
+        height="38"
         quality={100}
         priority
       />

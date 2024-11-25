@@ -20,7 +20,7 @@ async function PortfolioPage({ params }) {
   const resolvedParams = await params;
   const work = await getWork(resolvedParams.workId);
   return (
-    <div className="w-full h-screen md:h-[calc(100dvh-80px)]  flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-96px)] flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
         <div className="bg-gray-50 p-5 mb-5 md:rounded-md flex flex-col md:flex-row items-center shadow-md">
           <div className="flex-1 md:pr-5">
@@ -32,7 +32,7 @@ async function PortfolioPage({ params }) {
               <span className="block">{work.projectTime}</span>
             </p>
             <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md p-5 mb-5">
-              <h3 className="text-base md:text-lg font-semibold tracking-wider mr-2 mb:0 ">
+              <h3 className="text-base md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
                 Technologies used:
               </h3>
               <div className="flex flex-wrap">
@@ -82,7 +82,7 @@ async function PortfolioPage({ params }) {
             />
           </div>
         </div>
-        <div className="flex justify-center px-5 md:px-0 md:justify-end">
+        <div className="flex justify-center px-5 md:px-0 md:justify-end mb-5 md:mb-0">
           <Link
             href="/portfolio"
             className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"

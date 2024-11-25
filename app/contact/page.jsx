@@ -46,7 +46,7 @@ function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="devicon-github-original text-3xl"></i>
+                  <i className="devicon-github-original text-xl md:text-2xl"></i>
                   <span>LinkedIn</span>
                 </a>
               </li>
@@ -57,7 +57,7 @@ function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="devicon-linkedin-plain text-3xl"></i>
+                  <i className="devicon-linkedin-plain text-xl md:text-2xl"></i>
                   <span>Github</span>
                 </a>
               </li>
