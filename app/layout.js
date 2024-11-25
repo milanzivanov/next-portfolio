@@ -1,5 +1,7 @@
 "use client";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import Header from "@/app/_components/Header";
 import MobileNavigation from "./_components/MobileNavigation";
 import { Inter } from "next/font/google";
@@ -29,6 +31,7 @@ export default function RootLayout({ children }) {
         />
         <div className="flex-1 shadow-sm border-t-2 md:border-t-0 bg-slate-200">
           <main className="w-full">{children}</main>
+          <SpeedInsights />
         </div>
       </body>
     </html>
