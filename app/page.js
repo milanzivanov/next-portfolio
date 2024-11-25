@@ -8,12 +8,12 @@ export const metadata = {
     default: "Welcome / MZ Portfolio"
   },
   description:
-    "This is the portfolio of Milan Zivanov and this is nextjs website where you can see my projects and skills. And also I am leraning nextjs by meking this portfolio. Frontend developer."
+    "Milan Zivanov - Frontend Developer - Welcome to my personal website and portfolio showcasing my past work. Explore and witness my frontend skills! Feel free to reach out for any inquiries or opportunities to collaborate. This is the portfolio made in next.js and it is my first next.js project but not last"
 };
 
 export default function HomePage() {
   return (
-    <div className=" w-full h-[calc(100dvh-96px)] bg-slate-700/20 flex flex-col items-center justify-center">
+    <div className=" w-full h-[calc(100dvh-86px)] bg-slate-700/20 flex flex-col items-center justify-center">
       <div className="absolute inset-0 z-10 bg-slate-700/20"></div>
       <div className="absolute inset-0 z-0">
         <Image
@@ -26,7 +26,7 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="relative z-10 w-full mb-[80px] py-5">
+      <div className="relative z-10 w-full py-5">
         <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
             <span className="block text-slate-800">

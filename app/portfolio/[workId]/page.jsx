@@ -20,7 +20,7 @@ async function PortfolioPage({ params }) {
   const resolvedParams = await params;
   const work = await getWork(resolvedParams.workId);
   return (
-    <div className="w-full md:h-[calc(100dvh-96px)] flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
         <div className="bg-gray-50 p-5 mb-5 md:rounded-md flex flex-col md:flex-row items-center shadow-md">
           <div className="flex-1 md:pr-5">

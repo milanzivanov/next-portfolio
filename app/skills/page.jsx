@@ -10,7 +10,7 @@ async function SkillsPage() {
   const skills = await getSkills();
 
   return (
-    <div className="w-full md:h-[calc(100dvh-96px)] flex flex-col items-center justify-center">
+    <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="w-full">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col bg-slate-50 pt-10 pb-14 px-5 md:mt-5 shadow-md md:rounded-md">

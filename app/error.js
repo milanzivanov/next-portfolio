@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Error({ error }) {
   return (
-    <main className="flex justify-center h-[calc(100dvh-80px)] items-center flex-col gap-6">
+    <main className="flex justify-center h-[calc(100dvh-86px)] items-center flex-col gap-6">
       <h1 className="text-3xl tracking-wider font-semibold">
         Something went wrong!
       </h1>
