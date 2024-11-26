@@ -11,7 +11,7 @@ export default function PortfolioPage() {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="bg-gray-50 p-5 my-5 rounded-md">
-        <h1 className="tracking-wider text-2xl md:text-4xl mb-2 text-gray-600 font-bold">
+        <h1 className="tracking-wider text-2xl md:text-4xl md:mt-5 mb-2 text-gray-600 font-bold">
           Portfolio
         </h1>
 

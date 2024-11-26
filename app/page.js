@@ -5,7 +5,7 @@ import bg from "@/public/bg.webp";
 export const metadata = {
   title: {
     template: "%s / Portfolio of Milan Zivanov",
-    default: "Welcome / MZ Portfolio"
+    default: "Welcome / Milan Portfolio"
   },
   description:
     "Milan Zivanov - Frontend Developer - Welcome to my personal website and portfolio showcasing my past work. Explore and witness my frontend skills! Feel free to reach out for any inquiries or opportunities to collaborate. This is the portfolio made in next.js and it is my first next.js project but not last"
@@ -27,7 +27,7 @@ export default function HomePage() {
       </div>
 
       <div className="relative z-10 w-full py-5">
-        <div className="max-w-7xl mx-auto relative z-10">
+        <div className="max-w-7xl mx-auto relative z-10 mb-0 md:mb-[86px]">
           <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
             <span className="block text-slate-800">
               I am{" "}
