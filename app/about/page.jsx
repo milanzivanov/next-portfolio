@@ -17,8 +17,8 @@ function AboutPage() {
               Bit about myself
             </h1>
             <p className="text-grey-200 text-base md:text-lg">
-              Hi, I&apos;m Milan an enthusiastic tech and design enthusiast.
-              With experience at{" "}
+              Hi, I&apos;m Milan an enthusiastic front-end developer and design
+              enthusiast. With experience 2+ years at{" "}
               <span className="font-semibold text-blue-500">
                 Vega IT Solution
               </span>
@@ -27,15 +27,13 @@ function AboutPage() {
               and <span className="font-semibold text-blue-500">HTEC</span>, I
               specialize in creating user-friendly digital products.
             </p>
-            <p>
-              Clean code and simplicity drive my passion. Let&apos;s connect
-              I&apos;m open to freelance opportunities and always eager to
-              learn. Excited about mastering{" "}
+            <p className="text-grey-200 text-base md:text-lg">
+              Clean code and simplicity drive my passion. This is my little
+              corner of the internet where I share my thoughts and ideas.
+              Let&apos;s connect I&apos;m open to freelance opportunities and
+              always eager to learn. Excited about mastering{" "}
               <span className="font-semibold text-blue-500">Next.js</span> for
-              my next adventure!
-            </p>
-            <p>
-              This is my little corner of the internet. Let&apos;s connect 🚀
+              my next adventure (this is my first next.js project) 🚀
             </p>
           </div>
           <div className="flex-1">

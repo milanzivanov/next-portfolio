@@ -28,7 +28,7 @@ export default function HomePage() {
 
       <div className="relative z-10 w-full py-5">
         <div className="max-w-7xl mx-auto relative z-10 mb-0 md:mb-[86px]">
-          <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
+          <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] md:text-[3.5rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
             <span className="block text-slate-800">
               I am{" "}
               <span className="font-extrabold bg-gradient-to-r from-[#0071bc] to-[#6366f1] bg-clip-text text-transparent">
