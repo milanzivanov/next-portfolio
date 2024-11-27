@@ -19,13 +19,33 @@ function AboutPage() {
             <p className="text-grey-200 text-base md:text-lg">
               Hi, I&apos;m Milan an enthusiastic front-end developer and design
               enthusiast. With experience 2+ years at{" "}
-              <span className="font-semibold text-blue-500">
+              <a
+                href="https://www.vegaitglobal.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+              >
                 Vega IT Solution
-              </span>
+              </a>
               ,{" "}
-              <span className="font-semibold text-blue-500">OMA Adriatic</span>,
-              and <span className="font-semibold text-blue-500">HTEC</span>, I
-              specialize in creating user-friendly digital products.
+              <a
+                href="https://omadriatic.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+              >
+                OMA Adriatic
+              </a>
+              , and{" "}
+              <a
+                href="https://htec.rs/"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+              >
+                HTEC
+              </a>
+              , I specialize in creating user-friendly digital products.
             </p>
             <p className="text-grey-200 text-base md:text-lg">
               Clean code and simplicity drive my passion. This is my little
@@ -33,7 +53,8 @@ function AboutPage() {
               Let&apos;s connect I&apos;m open to freelance opportunities and
               always eager to learn. Excited about mastering{" "}
               <span className="font-semibold text-blue-500">Next.js</span> for
-              my next adventure (this is my first next.js project) 🚀
+              my next adventure (this is my first{" "}
+              <span className="font-semibold">next.js</span> project) 🚀
             </p>
           </div>
           <div className="flex-1">
