@@ -18,7 +18,7 @@ function AboutPage() {
             </h1>
             <p className="text-grey-200 text-base md:text-lg">
               Hi, I&apos;m Milan an enthusiastic front-end developer and design
-              enthusiast. With experience 2+ years at{" "}
+              enthusiast with 2+ years of experience at{" "}
               <a
                 href="https://www.vegaitglobal.com/"
                 target="_blank"
@@ -45,16 +45,18 @@ function AboutPage() {
               >
                 HTEC
               </a>
-              , I specialize in creating user-friendly digital products.
+              , I specialize in crafting clean, user-friendly digital
+              experiences.
             </p>
             <p className="text-grey-200 text-base md:text-lg">
-              Clean code and simplicity drive my passion. This is my little
-              corner of the internet where I share my thoughts and ideas.
-              Let&apos;s connect I&apos;m open to freelance opportunities and
-              always eager to learn. Excited about mastering{" "}
+              This is my little corner of the internet where I share my thoughts
+              and ideas. Let&apos;s connect I&apos;m open to freelance
+              opportunities and always eager to learn.
+            </p>
+            <p className="text-grey-200 text-base md:text-lg">
+              Excited about mastering{" "}
               <span className="font-semibold text-blue-500">Next.js</span> for
-              my next adventure (this is my first{" "}
-              <span className="font-semibold">next.js</span> project) 🚀
+              my next adventure 🚀
             </p>
           </div>
           <div className="flex-1">
