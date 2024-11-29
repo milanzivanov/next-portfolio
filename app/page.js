@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { poppins } from "./fonts/fonts";
 
 import bg from "@/public/bg.webp";
 
@@ -13,7 +14,7 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <div className=" w-full h-[calc(100dvh-86px)] bg-slate-700/20 flex flex-col items-center justify-center">
+    <div className=" w-full h-[calc(100dvh-86px)] bg-slate-700 flex flex-col items-center justify-center">
       <div className="absolute inset-0 z-10 bg-slate-700/20"></div>
       <div className="absolute inset-0 z-0">
         <Image
@@ -28,7 +29,9 @@ export default function HomePage() {
 
       <div className="relative z-10 w-full py-5">
         <div className="max-w-7xl mx-auto relative z-10 mb-0 md:mb-[86px]">
-          <h1 className="px-5 block text-[1.7rem] leading-[2.3rem] md:text-[3.5rem] lg:text-[5rem] tracking-wide lg:leading-[5.5rem]">
+          <h1
+            className={`${poppins.className} px-5 block text-[1.6rem] leading-[2.3rem] md:text-[3.5rem] lg:text-[4.5rem] tracking-wide lg:leading-[5.3rem]`}
+          >
             <span className="block text-slate-800">
               I am{" "}
               <span className="font-extrabold bg-gradient-to-r from-[#0071bc] to-[#6366f1] bg-clip-text text-transparent">
