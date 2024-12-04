@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-y-scroll">
       <body
         className={`${inter.className} flex flex-col antialiased text-grey-800 min-h-screen relative`}
       >
