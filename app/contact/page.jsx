@@ -27,7 +27,7 @@ function ContactPage() {
 
           <div className="flex-1 p-5">
             <h1 className="text-2xl tracking-wider md:text-4xl mb-2 text-gray-600 font-bold">
-              Get in tuch with me
+              Get in touch with me
             </h1>
 
             <p className="text-grey-200 text-base md:text-lg mb-5">
@@ -47,7 +47,7 @@ function ContactPage() {
                   rel="noopener noreferrer"
                 >
                   <i className="devicon-linkedin-plain text-xl md:text-2xl"></i>
-                  <span>LinkedIn</span>
+                  <span className="text-sm">LinkedIn</span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -59,7 +59,19 @@ function ContactPage() {
                 >
                   <i className="devicon-github-original text-xl md:text-2xl"></i>
 
-                  <span>Github</span>
+                  <span className="text-sm">Github</span>
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-2"
+                  href="https://codesandbox.io/dashboard/sandboxes/?workspace=ws_Ero3hzvD3xAeXpt7CSecMj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="devicon-githubcodespaces-plain text-xl md:text-2xl"></i>
+
+                  <span className="text-sm">codesandbox</span>
                 </a>
               </li>
             </ul>
