@@ -15,7 +15,7 @@ function ContactPage() {
       <div className="max-w-7xl mx-auto">
         <div className="bg-gray-50 md:p-5 rounded-md shadow-md flex flex-col md:flex-row">
           <Image
-            className="object-cover bg-gray-300 rounded-md"
+            className="object-cover bg-gray-300 md:rounded-md"
             src={image1}
             alt="milan picture"
             placeholder="blur"
@@ -38,40 +38,40 @@ function ContactPage() {
             <h3 className="text-lg font-semibold tracking-wide">
               You can find me on:
             </h3>
-            <ul className="space-x-5 mb-5 flex  bg-slate-100 p-5 rounded-md shadow-md">
-              <li className="flex items-center">
+            <ul className="flex flex-wrap mb-5  bg-slate-100 p-5 rounded-md shadow-md">
+              <li className="flex items-center mr-3">
                 <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-2"
+                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
                   href="https://www.linkedin.com/in/milan-%C5%BEivanov1983/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="devicon-linkedin-plain text-xl md:text-2xl"></i>
-                  <span className="text-sm">LinkedIn</span>
+                  <span className="text-base">LinkedIn</span>
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center mr-3">
                 <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-2"
+                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
                   href="https://github.com/milanzivanov"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="devicon-github-original text-xl md:text-2xl"></i>
 
-                  <span className="text-sm">Github</span>
+                  <span className="text-base">Github</span>
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center last:mt-3 md:last:mt-0 mr-3">
                 <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-2"
+                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
                   href="https://codesandbox.io/dashboard/sandboxes/?workspace=ws_Ero3hzvD3xAeXpt7CSecMj"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="devicon-githubcodespaces-plain text-xl md:text-2xl"></i>
 
-                  <span className="text-sm">codesandbox</span>
+                  <span className="text-base">codesandbox</span>
                 </a>
               </li>
             </ul>
