@@ -13,7 +13,7 @@ function ContactPage() {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 rounded-md shadow-md flex flex-col md:flex-row">
+        <div className="bg-gray-50 md:p-5 rounded-md shadow-md flex flex-col md:flex-row">
           <Image
             className="object-cover bg-gray-300 rounded-md"
             src={image1}

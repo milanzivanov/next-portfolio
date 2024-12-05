@@ -13,7 +13,7 @@ async function SkillsPage() {
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="w-full">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col bg-slate-50 pt-10 pb-14 px-5 md:mt-5 shadow-md md:rounded-md">
+          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md md:rounded-md">
             <h1 className="tracking-wider text-2xl md:text-4xl mb-2 text-gray-600 font-bold">
               Technologies
             </h1>
