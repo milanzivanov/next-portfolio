@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className="overflow-y-scroll">
+    <html lang="en" className="overflow-y-scroll scroll-smooth">
       <body
         className={`${inter.className} flex flex-col antialiased text-grey-800 min-h-screen relative`}
       >
-        <div className="flex-1 shadow-sm border-t-2 md:border-t-0 bg-slate-700/20 ">
+        <div className="flex-1 shadow-sm border-t-2 md:border-t-0 bg-slate-700/20">
           <main className="w-full">
             <Header toggleMobileNav={toggleMobileNav} />
 
