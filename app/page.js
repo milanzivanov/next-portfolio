@@ -15,7 +15,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className=" w-full h-[calc(100dvh-86px)] bg-slate-700 flex flex-col items-center justify-center">
-      <div className="absolute inset-0 z-10 bg-slate-700/20"></div>
+      <div className="absolute inset-0 z-10 bg-slate-700/30"></div>
       <div className="absolute inset-0 z-0">
         <Image
           src={bg}
