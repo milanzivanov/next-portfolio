@@ -62,18 +62,6 @@ function ContactPage() {
                   <span className="text-base">Github</span>
                 </a>
               </li>
-              <li className="flex items-center last:mt-3 md:last:mt-0 mr-3">
-                <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
-                  href="https://codesandbox.io/dashboard/sandboxes/?workspace=ws_Ero3hzvD3xAeXpt7CSecMj"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="devicon-githubcodespaces-plain text-xl md:text-2xl"></i>
-
-                  <span className="text-base">codesandbox</span>
-                </a>
-              </li>
             </ul>
             <h4 className="text-md font-semibold tracking-wide">
               email:{" "}
