@@ -18,14 +18,14 @@ async function SkillsPage() {
               Technologies
             </h1>
 
-            <p className="pb-5 text-grey-200 text-base md:text-lg max-w-5xl">
+            <p className="pb-5 text-grey-200 dark:text-slate-800 text-base md:text-lg max-w-5xl">
               Here is a detailed list of the tech tools I regularly use in my
               work. My primary focus revolves around{" "}
-              <span className="font-semibold tracking-wider text-blue-500">
+              <span className="font-semibold tracking-wider text-blue-500 dark:text-blue-700">
                 React
               </span>{" "}
               and
-              <span className="font-semibold tracking-wider text-blue-500">
+              <span className="font-semibold tracking-wider text-blue-500 dark:text-blue-700">
                 {" "}
                 Next.js
               </span>
@@ -38,12 +38,12 @@ async function SkillsPage() {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-slate-200 rounded-md shadow-md py-5 px-3 flex justify-center items-center cursor-not-allowed"
+                  className="bg-slate-200 text-grey-200 dark:text-slate-800 rounded-md shadow-md py-5 px-3 flex justify-center items-center cursor-not-allowed"
                 >
                   <div className="flex flex-col items-center justify-center">
                     <h5 className="text-lg mb-1">{skill.iconTitle}</h5>
                     <i
-                      className={`${skill.iconClass} devicon text-3xl lg:text-5xl text-blue-500`}
+                      className={`${skill.iconClass} devicon text-3xl lg:text-5xl text-blue-500 dark:text-blue-700`}
                     ></i>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ async function SkillsPage() {
           <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
             <Link
               href="/"
-              className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
+              className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 dark:bg-blue-700 hover:bg-blue-800 text-gray-100 px-6 py-3 text-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

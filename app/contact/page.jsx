@@ -30,18 +30,18 @@ function ContactPage() {
               Get in touch with me
             </h1>
 
-            <p className="text-grey-200 text-base md:text-lg mb-5">
+            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg mb-5">
               I&apos;d love to hear from you if you have any questions or want
               to work together. Don&apos;t hesitate to reach out!
             </p>
 
-            <h3 className="text-lg font-semibold tracking-wide">
+            <h3 className="text-lg text-grey-200 dark:text-slate-800 font-semibold tracking-wide">
               You can find me on:
             </h3>
-            <ul className="flex flex-wrap mb-5  bg-slate-100 p-5 rounded-md shadow-md">
+            <ul className="flex flex-wrap mb-5  bg-slate-100  p-5 rounded-md shadow-md">
               <li className="flex items-center mr-3">
                 <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
+                  className="flex items-center text-lg md:text-xl text-blue-500 dark:text-blue-700 hover:text-blue-800 gap-1"
                   href="https://www.linkedin.com/in/milan-%C5%BEivanov1983/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -52,7 +52,7 @@ function ContactPage() {
               </li>
               <li className="flex items-center mr-3">
                 <a
-                  className="flex items-center text-lg md:text-xl text-blue-500 hover:text-blue-700 gap-1"
+                  className="flex items-center text-lg md:text-xl text-blue-500 dark:text-blue-700 hover:text-blue-800 gap-1"
                   href="https://github.com/milanzivanov"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,9 +63,9 @@ function ContactPage() {
                 </a>
               </li>
             </ul>
-            <h4 className="text-md font-semibold tracking-wide">
+            <h4 className="text-md text-grey-200 dark:text-slate-800 font-semibold tracking-wide">
               email:{" "}
-              <span className="text-blue-500 text-sm italic">
+              <span className="text-blue-500 dark:text-blue-700 text-sm italic">
                 milan.zivanov@gmail.com
               </span>
             </h4>
@@ -75,7 +75,7 @@ function ContactPage() {
         <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
           <Link
             href="/"
-            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
+            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 dark:bg-blue-700 hover:bg-blue-800 text-gray-100 px-6 py-3 text-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -16,14 +16,14 @@ function AboutPage() {
             <h1 className="text-2xl tracking-wider md:text-4xl text-gray-600 font-bold">
               Bit about myself
             </h1>
-            <p className="text-grey-200 text-base md:text-lg">
+            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg">
               Hi, I&apos;m Milan an enthusiastic front-end developer and design
               enthusiast with 2+ years of experience at{" "}
               <a
                 href="https://www.vegaitglobal.com/"
                 target="_blank"
                 rel="noreferrer"
-                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+                className="font-semibold text-blue-500 dark:text-blue-700 hover:text-blue-800 transition-colors duration-300 ease-in-out"
               >
                 Vega IT Solution
               </a>
@@ -32,7 +32,7 @@ function AboutPage() {
                 href="https://omadriatic.com/"
                 target="_blank"
                 rel="noreferrer"
-                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+                className="font-semibold text-blue-500 dark:text-blue-700 hover:text-blue-800 transition-colors duration-300 ease-in-out"
               >
                 OMA Adriatic
               </a>
@@ -41,22 +41,24 @@ function AboutPage() {
                 href="https://htec.rs/"
                 target="_blank"
                 rel="noreferrer"
-                className="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out"
+                className="font-semibold text-blue-500 dark:text-blue-700 hover:text-blue-800 transition-colors duration-300 ease-in-out"
               >
                 HTEC
               </a>
               , I specialize in crafting clean, user-friendly digital
               experiences.
             </p>
-            <p className="text-grey-200 text-base md:text-lg">
+            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg">
               This is my little corner of the internet where I share my thoughts
               and ideas. Let&apos;s connect I&apos;m open to freelance
               opportunities and always eager to learn.
             </p>
-            <p className="text-grey-200 text-base md:text-lg">
+            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg">
               Excited about mastering{" "}
-              <span className="font-semibold text-blue-500">Next.js</span> for
-              my next adventure 🚀
+              <span className="font-semibold text-blue-500 dark:text-blue-700">
+                Next.js
+              </span>{" "}
+              for my next adventure 🚀
             </p>
           </div>
           <div className="flex-1">
@@ -74,7 +76,7 @@ function AboutPage() {
         <div className="flex justify-center w-full px-5 md:px-0 md:justify-end my-5">
           <Link
             href="/"
-            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
+            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 dark:bg-blue-700 hover:bg-blue-800 text-gray-100 px-6 py-3 text-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

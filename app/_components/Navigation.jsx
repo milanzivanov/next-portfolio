@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+import ThemeSwitch from "./ThemeSwitch";
+
 function Navigation({ toggleMobileNav }) {
   const path = usePathname();
 
@@ -57,6 +59,11 @@ function Navigation({ toggleMobileNav }) {
             }`}
           >
             contact
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
+            <ThemeSwitch />
           </Link>
         </li>
       </ul>

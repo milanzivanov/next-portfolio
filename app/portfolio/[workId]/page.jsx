@@ -27,19 +27,19 @@ async function PortfolioPage({ params }) {
             <h1 className="text-2xl md:text-4xl mb-5 text-gray-600 font-bold">
               {work.title}
             </h1>
-            <p className="text-grey-200 text-base md:text-lg mb-5 bg-gray-100  rounded-md p-5 shadow-md">
+            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg mb-5 bg-gray-100  rounded-md p-5 shadow-md">
               {work.body}
               <span className="block">{work.projectTime}</span>
             </p>
             <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md p-5 mb-5">
-              <h3 className="text-base md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
+              <h3 className="text-base text-grey-200 dark:text-slate-800 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
                 Technologies used:
               </h3>
               <div className="flex flex-wrap">
                 {work.technologiesUsed.map((skill, i) => (
                   <li key={i} className="flex items-center mr-2">
                     <i
-                      className={`${skill.svgIcon}  text-blue-500 devicon text-xl`}
+                      className={`${skill.svgIcon}  text-blue-500 dark:text-blue-700 devicon text-xl`}
                     ></i>
                   </li>
                 ))}
@@ -48,7 +48,7 @@ async function PortfolioPage({ params }) {
 
             <div className="flex justify-end mb-5">
               <Link
-                className="flex items-center w-full md:w-auto justify-center bg-blue-500 hover:bg-blue-600 rounded-md text-gray-100 px-6 py-3 text-lg"
+                className="flex items-center w-full md:w-auto justify-center bg-blue-500 dark:bg-blue-700 hover:bg-blue-800 rounded-md text-gray-100 px-6 py-3 text-lg"
                 href={work.linkSrc}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -85,7 +85,7 @@ async function PortfolioPage({ params }) {
         <div className="flex justify-center px-5 md:px-0 md:justify-end mb-5 md:mb-0">
           <Link
             href="/portfolio"
-            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 hover:bg-blue-600 text-gray-100 px-6 py-3 text-lg"
+            className="flex items-center w-full md:w-auto justify-center rounded-md bg-blue-500 dark:bg-blue-700 hover:bg-blue-800 text-gray-100 px-6 py-3 text-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -16,4 +16,5 @@ export const theme = {
     }
   }
 };
+export const darkMode = "selector";
 export const plugins = [];
