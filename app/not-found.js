@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ButtonBack from "./_components/ButtonBack";
 
 function NotFound() {
   return (
@@ -6,12 +7,7 @@ function NotFound() {
       <h1 className="text-3xl text-gray-200 font-semibold">
         This page could not be found :(
       </h1>
-      <Link
-        href="/"
-        className="inline-block bg-blue-500 rounded-md text-gray-100 px-6 py-3 text-lg"
-      >
-        Go back home
-      </Link>
+      <ButtonBack href="/">Go back home</ButtonBack>
     </main>
   );
 }

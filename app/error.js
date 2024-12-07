@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import ButtonBack from "./_components/ButtonBack";
 
 export default function Error({ error }) {
   return (
@@ -10,12 +11,7 @@ export default function Error({ error }) {
       </h1>
       <p className="text-lg">{error.message}</p>
 
-      <Link
-        href="/"
-        className="inline-block bg-blue-500 hover:bg-blue-600 text-gray-200 rounded-md px-6 py-3 text-lg"
-      >
-        Go back home
-      </Link>
+      <ButtonBack href="/">Go back to home</ButtonBack>
     </main>
   );
 }

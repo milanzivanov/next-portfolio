@@ -1,3 +1,4 @@
+import ButtonBack from "@/app/_components/ButtonBack";
 import Link from "next/link";
 
 function NotFound() {
@@ -6,12 +7,7 @@ function NotFound() {
       <h1 className="text-3xl text-gray-200 font-semibold">
         This portfolio project could not be found :(
       </h1>
-      <Link
-        href="/portfolio"
-        className="inline-block bg-blue-500 rounded-md text-gray-100 px-6 py-3 text-lg"
-      >
-        Go back to portfolio
-      </Link>
+      <ButtonBack href="/portfolio">Go back to portfolio</ButtonBack>
     </main>
   );
 }
