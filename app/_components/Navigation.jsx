@@ -14,8 +14,10 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/"
-            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
-              path === "/" ? "active" : ""
+            className={`text-lg md:text-xl capitalize hover:text-blue-400 ${
+              path === "/"
+                ? "text-blue-600 dark:text-blue-400 font-semibold"
+                : "text-grey-600 dark:text-grey-300"
             }`}
           >
             home
@@ -24,8 +26,10 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/about"
-            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
-              path === "/about" ? "active" : ""
+            className={`text-lg md:text-xl capitalize hover:text-blue-400 ${
+              path === "/about"
+                ? "text-blue-600 dark:text-blue-400 font-semibold"
+                : "text-grey-600 dark:text-grey-300"
             }`}
           >
             about
@@ -34,8 +38,10 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/skills"
-            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
-              path === "/skills" ? "active" : ""
+            className={`text-lg md:text-xl capitalize hover:text-blue-400 ${
+              path === "/skills"
+                ? "text-blue-600 dark:text-blue-400 font-semibold"
+                : "text-grey-600 dark:text-grey-300"
             }`}
           >
             skills
@@ -44,8 +50,10 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/portfolio"
-            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
-              path === "/portfolio" ? "active" : ""
+            className={`text-lg md:text-xl capitalize hover:text-blue-400 ${
+              path === "/portfolio"
+                ? "text-blue-600 dark:text-blue-400 font-semibold"
+                : "text-grey-600 dark:text-grey-300"
             }`}
           >
             portfolio
@@ -54,8 +62,10 @@ function Navigation({ toggleMobileNav }) {
         <li>
           <Link
             href="/contact"
-            className={`text-lg md:text-xl capitalize text-grey-600 hover:text-blue-600 ${
-              path === "/contact" ? "active" : ""
+            className={`text-lg md:text-xl capitalize hover:text-blue-400 ${
+              path === "/contact"
+                ? "text-blue-600 dark:text-blue-400 font-semibold"
+                : "text-grey-600 dark:text-grey-300"
             }`}
           >
             contact
