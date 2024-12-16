@@ -10,12 +10,12 @@ export const metadata = {
 export default function PortfolioPage() {
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="bg-gray-50 p-5 mb-5 mt-0 md:my-5 md:rounded-md">
+      <div className="bg-gray-50 p-5 mb-5 mt-0 md:my-5 2xl:rounded-md">
         <h1 className="tracking-wider text-2xl md:text-4xl md:mt-5 mb-2 text-gray-600 font-bold">
           Portfolio
         </h1>
 
-        <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg mb-5 md:mb-10">
+        <p className="text-grey-200 dark:text-slate-800 text-base 2xl:text-lg mb-5 md:mb-10">
           Welcome! Here you&apos;ll find a selection of projects I&apos;ve been
           working on, showcasing my skills and dedication to development. These
           projects represent some of the ideas and solutions I&apos;ve brought

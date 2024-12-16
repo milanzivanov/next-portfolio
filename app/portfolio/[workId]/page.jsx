@@ -23,7 +23,7 @@ async function PortfolioPage({ params }) {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 mb-5 md:rounded-md flex flex-col md:flex-row items-center shadow-md">
+        <div className="bg-gray-50 p-5 mb-5 2xl:rounded-md flex flex-col md:flex-row items-center shadow-md">
           <div className="flex-1 md:pr-5">
             <h1 className="text-2xl md:text-4xl mb-5 text-gray-600 font-bold">
               {work.title}
@@ -72,10 +72,11 @@ async function PortfolioPage({ params }) {
               </Link>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="relative flex-1">
             <Image
               src={work.src}
               style={{ width: "auto", height: "auto" }}
+              sizes="(max-width: 768px) 100vw, 50vw"
               width={400}
               height={400}
               alt={work.title}
@@ -83,7 +84,7 @@ async function PortfolioPage({ params }) {
             />
           </div>
         </div>
-        <div className="flex justify-center px-5 md:px-0 md:justify-end mb-5 md:mb-0">
+        <div className="flex justify-center px-5 2xl:px-0 md:justify-end mb-5 md:mb-0">
           <ButtonBack href="/portfolio">Go back home</ButtonBack>
         </div>
       </div>

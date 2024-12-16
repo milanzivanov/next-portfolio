@@ -14,7 +14,7 @@ function ContactPage() {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 md:p-5 rounded-md shadow-md flex flex-col md:flex-row">
+        <div className="bg-gray-50 md:p-5 2xl:rounded-md shadow-md flex flex-col md:flex-row">
           <Image
             className="object-cover bg-gray-300 md:rounded-md"
             src={image1}
@@ -31,7 +31,7 @@ function ContactPage() {
               Get in touch with me
             </h1>
 
-            <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg mb-5">
+            <p className="text-grey-200 dark:text-slate-800 text-base 2xl:text-lg mb-5">
               I&apos;d love to hear from you if you have any questions or want
               to work together. Don&apos;t hesitate to reach out!
             </p>
@@ -73,7 +73,7 @@ function ContactPage() {
           </div>
         </div>
         {/* BTH */}
-        <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
+        <div className="flex justify-center px-5 2xl:px-0 md:justify-end my-5">
           <ButtonBack href="/">Go back home</ButtonBack>
         </div>
       </div>

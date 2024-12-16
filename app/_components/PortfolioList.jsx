@@ -17,7 +17,7 @@ async function PortfolioList() {
           <PortfolioCard key={work.id} work={work} />
         ))}
       </div>
-      <div className="flex justify-center px-5 md:px-0 md:justify-end my-5">
+      <div className="flex justify-center px-5 2xl:px-0 md:justify-end my-5">
         <ButtonBack href="/">Go back home</ButtonBack>
       </div>
     </>
