@@ -39,14 +39,14 @@ async function SkillsPage() {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-slate-200 text-grey-200 dark:text-slate-800 rounded-md shadow-md py-5 px-0 2xl:py-5 2xl:px-3 flex justify-center items-center cursor-not-allowed"
+                  className="bg-slate-200 dark:bg-slate-800 text-grey-200 rounded-md shadow-md py-5 px-0 2xl:py-5 2xl:px-3 flex justify-center items-center cursor-not-allowed"
                 >
                   <div className="flex flex-col items-center justify-center">
                     <h5 className="text-md 2xl:text-lg mb-1">
                       {skill.iconTitle}
                     </h5>
                     <i
-                      className={`${skill.iconClass} devicon text-3xl 2xl:text-5xl text-blue-500 dark:text-blue-700`}
+                      className={`${skill.iconClass} devicon text-3xl 2xl:text-5xl text-blue-500 dark:text-blue-100`}
                     ></i>
                   </div>
                 </div>
