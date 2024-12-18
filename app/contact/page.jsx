@@ -12,19 +12,18 @@ export const metadata = {
 
 function ContactPage() {
   return (
-    <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
-      <div className="max-w-7xl mx-auto">
+    <div className="w-full 2xl:md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
+      <div className="max-w-5xl  2xl:max-w-7xl mx-auto">
         <div className="bg-gray-50 md:p-5 2xl:rounded-md shadow-md flex flex-col md:flex-row">
-          <Image
-            className="object-cover bg-gray-300 md:rounded-md"
-            src={image1}
-            alt="milan picture"
-            placeholder="blur"
-            quality={80}
-            width={500}
-            height={500}
-            style={{ width: "auto", height: "auto" }}
-          />
+          <div className="flex-1">
+            <Image
+              className="object-cover flex-1 bg-gray-300 md:rounded-md"
+              src={image1}
+              alt="milan picture"
+              placeholder="blur"
+              quality={80}
+            />
+          </div>
 
           <div className="flex-1 p-5">
             <h1 className="text-2xl tracking-wider md:text-4xl mb-2 text-gray-600 font-bold">
@@ -73,7 +72,7 @@ function ContactPage() {
           </div>
         </div>
         {/* BTH */}
-        <div className="flex justify-center px-5 2xl:px-0 md:justify-end my-5">
+        <div className="flex justify-center px-5 xl:px-0 md:justify-end my-5">
           <ButtonBack href="/">Go back home</ButtonBack>
         </div>
       </div>

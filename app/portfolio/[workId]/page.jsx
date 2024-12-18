@@ -22,8 +22,8 @@ async function PortfolioPage({ params }) {
   const work = await getWork(resolvedParams.workId);
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
-      <div className="max-w-7xl mx-auto">
-        <div className="bg-gray-50 p-5 mb-5 2xl:rounded-md flex flex-col md:flex-row items-center shadow-md">
+      <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
+        <div className="bg-gray-50 p-5 mb-5 xl:rounded-md flex flex-col md:flex-row items-center shadow-md">
           <div className="flex-1 md:pr-5">
             <h1 className="text-2xl md:text-4xl mb-5 text-gray-600 font-bold">
               {work.title}
@@ -40,7 +40,7 @@ async function PortfolioPage({ params }) {
                 {work.technologiesUsed.map((skill, i) => (
                   <li key={i} className="flex items-center mr-2">
                     <i
-                      className={`${skill.svgIcon}  text-blue-500 dark:text-blue-700 devicon text-xl`}
+                      className={`${skill.svgIcon} text-blue-500 dark:text-blue-700 devicon text-xl`}
                     ></i>
                   </li>
                 ))}
@@ -84,7 +84,7 @@ async function PortfolioPage({ params }) {
             />
           </div>
         </div>
-        <div className="flex justify-center px-5 2xl:px-0 md:justify-end mb-5 md:mb-0">
+        <div className="flex justify-center px-5 xl:px-0 md:justify-end mb-5 md:mb-0">
           <ButtonBack href="/portfolio">Go back home</ButtonBack>
         </div>
       </div>

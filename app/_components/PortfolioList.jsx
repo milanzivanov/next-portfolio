@@ -1,6 +1,5 @@
 import PortfolioCard from "./PortfolioCard";
 import { getWorks } from "../_lib/services";
-import Link from "next/link";
 import ButtonBack from "./ButtonBack";
 
 async function PortfolioList() {
@@ -17,7 +16,7 @@ async function PortfolioList() {
           <PortfolioCard key={work.id} work={work} />
         ))}
       </div>
-      <div className="flex justify-center px-5 2xl:px-0 md:justify-end my-5">
+      <div className="flex justify-center px-5 xl:px-0 md:justify-end my-5">
         <ButtonBack href="/">Go back home</ButtonBack>
       </div>
     </>

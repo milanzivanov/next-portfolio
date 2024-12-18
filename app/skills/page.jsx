@@ -13,8 +13,8 @@ async function SkillsPage() {
   return (
     <div className="w-full 2xl:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="w-full">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md 2xl:rounded-md">
+        <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
+          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
             <h1 className="tracking-wider text-2xl md:text-4xl mb-2 text-gray-600 font-bold">
               Technologies
             </h1>
@@ -54,7 +54,7 @@ async function SkillsPage() {
             </div>
           </div>
           {/* BTH */}
-          <div className="flex justify-center px-5 2xl:px-0 md:justify-end my-5">
+          <div className="flex justify-center px-5 xl:px-0 md:justify-end my-5">
             <ButtonBack href="/">Go back home</ButtonBack>
           </div>
         </div>
