@@ -20,6 +20,8 @@ export async function generateStaticParams() {
 async function PortfolioPage({ params }) {
   const resolvedParams = await params;
   const work = await getWork(resolvedParams.workId);
+
+  console.log("---------------------------", work.linkSrc);
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
