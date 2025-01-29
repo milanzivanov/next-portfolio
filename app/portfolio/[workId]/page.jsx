@@ -86,7 +86,7 @@ async function PortfolioPage({ params }) {
           </div>
         </div>
         <div className="flex justify-center px-5 xl:px-0 md:justify-end mb-5 md:mb-0">
-          <ButtonBack href="/portfolio">Back to porfolio</ButtonBack>
+          <ButtonBack href="/portfolio">Back to portfolio</ButtonBack>
         </div>
       </div>
     </div>
