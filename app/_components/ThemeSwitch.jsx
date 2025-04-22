@@ -1,6 +1,6 @@
 "use client";
 
-import { FaMoon, FaSun } from "react-icons/fa";
+import { LuSun, LuMoon } from "react-icons/lu";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
@@ -26,7 +26,7 @@ export default function ThemeSwitch() {
 
   if (resolvedTheme === "dark") {
     return (
-      <FaSun
+      <LuSun
         className="text-yellow-500"
         size={24}
         onClick={() => setTheme("light")}
@@ -36,7 +36,7 @@ export default function ThemeSwitch() {
 
   if (resolvedTheme === "light") {
     return (
-      <FaMoon
+      <LuMoon
         className="text-slate-800"
         size={24}
         onClick={() => setTheme("dark")}
