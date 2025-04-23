@@ -2,6 +2,7 @@ import ButtonBack from "@/app/_components/ButtonBack";
 import { getWork, getWorks } from "@/app/_lib/services";
 import { FaArrowCircleRight } from "react-icons/fa";
 import Image from "next/image";
+import DescriptionText from "@/app/_components/DescriptionText";
 import Link from "next/link";
 
 export async function generateMetadata({ params }) {
@@ -31,10 +32,8 @@ async function PortfolioPage({ params }) {
           </h1>
           <div className=" flex flex-col md:flex-row">
             <div className="flex-1 md:pr-5">
-              <p className="text-grey-200 dark:text-slate-800 text-base md:text-lg mb-5 rounded-md">
-                {work.body}
-                <span className="block">{work.projectTime}</span>
-              </p>
+              <DescriptionText text={work.body} work={work.projectTime} />
+
               <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md pl-5 md:pl-0 py-5 mb-5">
                 <h3 className="text-base text-grey-200 dark:text-slate-800 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
                   Technologies used:

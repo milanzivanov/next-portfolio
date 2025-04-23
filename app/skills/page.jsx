@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getSkills } from "../_lib/services";
 import "devicon/devicon.min.css";
 import ButtonBack from "../_components/ButtonBack";
+import Title from "../_components/Title";
 
 export const metadata = {
   title: "Portfolio page"
@@ -15,9 +16,7 @@ async function SkillsPage() {
       <div className="w-full">
         <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
           <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
-            <h1 className="tracking-wider text-2xl md:text-4xl mb-2 text-gray-600 font-bold">
-              Technologies
-            </h1>
+            <Title text="Technologies" />
 
             <p className="pb-5 text-grey-200 dark:text-slate-800 text-base 2xl:text-lg max-w-5xl">
               Here is a detailed list of the tech tools I regularly use in my

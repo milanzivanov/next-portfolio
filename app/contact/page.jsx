@@ -5,6 +5,7 @@ import image1 from "@/public/Milan_right.webp";
 import "devicon/devicon.min.css";
 import Link from "next/link";
 import ButtonBack from "../_components/ButtonBack";
+import Title from "../_components/Title";
 
 export const metadata = {
   title: "Contact page"
@@ -26,9 +27,7 @@ function ContactPage() {
           </div>
 
           <div className="flex-1 p-5">
-            <h1 className="text-2xl tracking-wider md:text-4xl mb-2 text-gray-600 font-bold">
-              Get in touch with me
-            </h1>
+            <Title text="Get in touch with me" />
 
             <p className="text-grey-200 dark:text-slate-800 text-base 2xl:text-lg mb-5">
               I&apos;d love to hear from you if you have any questions or want

@@ -1,4 +1,5 @@
 import PortfolioList from "../_components/PortfolioList";
+import Title from "../_components/Title";
 import { Suspense } from "react";
 import Spinner from "../_components/Spinner";
 import Link from "next/link";
@@ -11,9 +12,7 @@ export default function PortfolioPage() {
   return (
     <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
       <div className="bg-gray-50 p-5 mb-5 mt-0 md:my-5 xl:rounded-md">
-        <h1 className="tracking-wider text-2xl md:text-4xl md:mt-5 mb-2 text-gray-600 font-bold">
-          Portfolio
-        </h1>
+        <Title text="Portfolio" />
 
         <p className="text-grey-200 dark:text-slate-800 text-base 2xl:text-lg mb-5 md:mb-10">
           Welcome! Here you&apos;ll find a selection of projects I&apos;ve been
