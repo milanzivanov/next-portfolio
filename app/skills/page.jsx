@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { getSkills } from "../_lib/services";
 import "devicon/devicon.min.css";
 import ButtonBack from "../_components/ButtonBack";
 import Title from "../_components/Title";
+import SkillsItems from "../_components/SkillsItems";
 
 export const metadata = {
   title: "Portfolio page"
@@ -34,23 +34,7 @@ async function SkillsPage() {
               essential part of my development process.
             </p>
 
-            <div className="grid grid-cols-2 xl:grid-cols-8 2xl:grid-cols-7 gap-5">
-              {skills.map((skill, index) => (
-                <div
-                  key={index}
-                  className="bg-slate-200 dark:bg-slate-800 text-grey-200 rounded-md shadow-md py-5 px-0 2xl:py-5 2xl:px-3 flex justify-center items-center cursor-not-allowed"
-                >
-                  <div className="flex flex-col items-center justify-center">
-                    <h5 className="text-md 2xl:text-lg mb-1">
-                      {skill.iconTitle}
-                    </h5>
-                    <i
-                      className={`${skill.iconClass} devicon text-3xl 2xl:text-5xl text-blue-500 dark:text-blue-100`}
-                    ></i>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <SkillsItems skills={skills} />
           </div>
           {/* BTH */}
           <div className="flex justify-center px-5 xl:px-0 md:justify-end my-5">

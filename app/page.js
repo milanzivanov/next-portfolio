@@ -32,7 +32,7 @@ export default function HomePage() {
       <div className="relative max-w-5xl rounded-none xl:max-w-7xl mx-auto z-10 w-full 2xl:rounded-2xl bg-slate-50/10 dark:bg-slate-800 shadow-sm py-5">
         <div className=" flex flex-col items-center relative z-10">
           <h1
-            className={`${poppins.className} px-5 block text-[1.6rem] leading-[2.3rem] md:text-[3.5rem] 2xl:text-[4rem] tracking-wide lg:leading-[4rem] 2xl:leading-[5.3rem]`}
+            className={`${poppins.className} px-5 block text-[1.6rem] leading-[2.3rem] md:text-[3.5rem] 2xl:text-[4rem] tracking-wide lg:leading-[4rem] 2xl:leading-[5.3rem] fadeInUp`}
           >
             <span className="block text-slate-800 dark:text-slate-100">
               I am{" "}
