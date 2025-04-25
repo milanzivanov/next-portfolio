@@ -1,4 +1,4 @@
-import PortfolioList from "../_components/PortfolioList";
+import PortfolioContainer from "../_components/portfolio/PortfolioContainer";
 import Title from "../_components/Title";
 import { Suspense } from "react";
 import Spinner from "../_components/Spinner";
@@ -29,15 +29,12 @@ export default function PortfolioPage() {
           >
             GitHub
           </Link>{" "}
-          profile. There, you&apos;ll find a diverse collection of repositories,
-          ranging from small experiments to fully realized applications. Feel
-          free to check them out to learn more about my approach,
-          problem-solving skills, and the technologies I enjoy working with!
+          profile.
         </p>
       </div>
 
       <Suspense fallback={<Spinner />}>
-        <PortfolioList />
+        <PortfolioContainer />
       </Suspense>
     </div>
   );

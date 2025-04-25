@@ -14,7 +14,7 @@ export const metadata = {
 function ContactPage() {
   return (
     <div className="w-full 2xl:md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
-      <div className="max-w-5xl  2xl:max-w-7xl mx-auto">
+      <div className="max-w-5xl  2xl:max-w-7xl mx-auto fadeInUp">
         <div className="bg-gray-50 md:p-5 xl:rounded-md shadow-md flex flex-col md:flex-row">
           <div className="flex-1">
             <Image

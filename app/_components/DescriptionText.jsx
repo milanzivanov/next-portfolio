@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function DescriptionText({ text, work }) {
   const [isTextVisible, setIsTextVisible] = useState(false);
-  const words = (text || "No text").split(" ");
+  const words = text.split(" ");
 
   const isLongText = words.length > 40;
 

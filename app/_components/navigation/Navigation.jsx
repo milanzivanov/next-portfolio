@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import ThemeSwitch from "./ThemeSwitch";
+import ThemeSwitch from "../ThemeSwitch";
 
 function Navigation({ toggleMobileNav }) {
   const path = usePathname();

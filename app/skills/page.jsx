@@ -1,8 +1,9 @@
 import { getSkills } from "../_lib/services";
-import "devicon/devicon.min.css";
 import ButtonBack from "../_components/ButtonBack";
 import Title from "../_components/Title";
-import SkillsItems from "../_components/SkillsItems";
+import SkillsItems from "../_components/skills/SkillsItems";
+
+import "devicon/devicon.min.css";
 
 export const metadata = {
   title: "Portfolio page"

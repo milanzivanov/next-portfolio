@@ -3,8 +3,8 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "./providers";
 
-import Header from "@/app/_components/Header";
-import MobileNavigation from "./_components/MobileNavigation";
+import Header from "@/app/_components/navigation/Header";
+import MobileNavigation from "./_components/navigation/MobileNavigation";
 import { inter } from "./fonts/fonts";
 import { useState } from "react";
 

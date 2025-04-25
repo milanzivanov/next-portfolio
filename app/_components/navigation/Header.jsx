@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
-import ThemeSwitch from "./ThemeSwitch";
+import ThemeSwitch from "../ThemeSwitch";
 
 function Header({ toggleMobileNav }) {
   return (

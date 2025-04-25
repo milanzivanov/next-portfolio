@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 import Link from "next/link";
-import { useInsideClick } from "../_hooks/useInsideClick";
+import { useInsideClick } from "../../_hooks/useInsideClick";
 
 export default function MobileNavigation({ isOpen, setMobileNavOpen }) {
   const ref = useInsideClick(setMobileNavOpen, false);

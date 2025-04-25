@@ -12,7 +12,7 @@ export const metadata = {
 function AboutPage() {
   return (
     <div className="w-full 2xl:h-[calc(100dvh-86px)] h-auto flex items-center justify-center">
-      <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
+      <div className="max-w-5xl 2xl:max-w-7xl mx-auto fadeInUp">
         <div className="w-full bg-gray-50 p-5 flex md:flex-row flex-col xl:rounded-md shadow-md">
           <div className="flex-1 flex flex-col justify-center space-y-1 md:space-y-3 pr-3 pb-5">
             <Title text="Bit about myself" />
