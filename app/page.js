@@ -41,7 +41,7 @@ export default function HomePage() {
               </span>
             </span>{" "}
             <span className="block text-slate-800 dark:text-slate-100 ">
-              Minimalism lover
+              Curiosity driven
             </span>{" "}
             <span className="block font-extrabold bg-gradient-to-r from-[#0071bc] to-[#6366f1] bg-clip-text text-transparent">
               Frontend developer
