@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-import bg2 from "@/public/coding-58.webp";
+// import bg2 from "@/public/coding-58.webp";
+import bg2 from "@/public/coding-4-45.webp";
 
 import ButtonBack from "../_components/ButtonBack";
 import Title from "../_components/Title";
@@ -14,7 +15,7 @@ function AboutPage() {
     <div className="w-full md:h-[calc(100dvh-86px)] h-auto flex flex-col items-center justify-center">
       <div className="max-w-5xl mx-auto fadeInUp">
         <div className="w-full flex flex-col-reverse gap-5 md:flex-row-reverse">
-          <div className="relative bg-slate-50/20 dark:bg-slate-800 flex flex-col justify-center rounded-md shadow-md space-y-1 md:space-y-3 p-5">
+          <div className="relative bg-slate-50/20 dark:bg-slate-800 flex flex-col justify-center rounded-md md:shadow-md space-y-1 md:space-y-3 p-5">
             <Title text="Bit about myself" />
             <p className="text-slate-800 dark:text-slate-100 text-base 2xl:text-lg">
               Hi, I&apos;m Milan an enthusiastic front-end developer with 2+
@@ -59,12 +60,11 @@ function AboutPage() {
               my next adventure 🚀
             </p>
           </div>
-          <div className="relative md:max-w-[350px] flex bg-slate-50/20 dark:bg-slate-800 rounded-md shadow-md">
+          <div className="relative pr-5 md:max-w-[350px] flex bg-slate-50/20 dark:bg-slate-800 rounded-md md:shadow-md">
             <Image
               className="object-cover"
               src={bg2}
               alt="Family sitting around a fire pit in front of cabin"
-              placeholder="blur"
               quality={80}
             />
           </div>
