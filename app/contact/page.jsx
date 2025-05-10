@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import image1 from "@/public/Milan_right.webp";
+import bg from "@/public/rocket-orange.png";
 
 import "devicon/devicon.min.css";
-import Link from "next/link";
 import ButtonBack from "../_components/ButtonBack";
 import Title from "../_components/Title";
 
@@ -13,12 +13,12 @@ export const metadata = {
 
 function ContactPage() {
   return (
-    <div className="w-full 2xl:md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
-      <div className="max-w-5xl  2xl:max-w-7xl mx-auto fadeInUp">
-        <div className="bg-gray-50 md:p-5 xl:rounded-md shadow-md flex flex-col md:flex-row">
-          <div className="flex-1">
+    <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
+      <div className="max-w-5xl 2xl:max-w-7xl mx-auto fadeInUp">
+        <div className="flex flex-col md:flex-row md:gap-5">
+          <div className="bg-surface flex items-end md:max-w-[350px] shadow-md md:rounded-md">
             <Image
-              className="object-cover flex-1 bg-gray-300 md:rounded-md"
+              className="object-cover flex-1 md:rounded-md"
               src={image1}
               alt="milan picture"
               placeholder="blur"
@@ -26,15 +26,15 @@ function ContactPage() {
             />
           </div>
 
-          <div className="flex-1 p-5">
+          <div className="max-w-2xl bg-slate-50/20 dark:bg-slate-800 shadow-md p-5 rounded-md overflow-hidden">
             <Title text="Get in touch with me" />
 
-            <p className="text-grey-200 dark:text-slate-800 text-base 2xl:text-lg mb-5">
+            <p className="text-slate-800 dark:text-slate-100 text-base 2xl:text-lg mb-5">
               I&apos;d love to hear from you if you have any questions or want
               to work together. Don&apos;t hesitate to reach out!
             </p>
 
-            <h3 className="text-lg text-grey-200 dark:text-slate-800 font-semibold tracking-wide">
+            <h3 className="text-lg text-slate-800 dark:text-slate-100 font-semibold tracking-wide">
               You can find me on:
             </h3>
             <ul className="flex flex-wrap mb-5  bg-slate-100  p-5 rounded-md shadow-md">
@@ -62,9 +62,9 @@ function ContactPage() {
                 </a>
               </li>
             </ul>
-            <h4 className="text-md text-grey-200 dark:text-slate-800 font-semibold tracking-wide">
+            <h4 className="text-md text-slate-800 dark:text-slate-100 font-semibold tracking-wide">
               email:{" "}
-              <span className="text-blue-500 dark:text-blue-700 text-sm italic">
+              <span className="text-blue-500 text-sm italic">
                 milan.zivanov@gmail.com
               </span>
             </h4>

@@ -16,17 +16,17 @@ async function SkillsPage() {
     <div className="w-full 2xl:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="w-full">
         <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
-          <div className="flex flex-col bg-slate-50 pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
+          <div className="flex flex-col bg-surface pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
             <Title text="Technologies" />
 
-            <p className="pb-5 text-grey-200 dark:text-slate-800 text-base 2xl:text-lg max-w-5xl">
+            <p className="pb-5 text-slate-800 dark:text-slate-100 text-base 2xl:text-lg max-w-5xl">
               Here is a detailed list of the tech tools I regularly use in my
               work. My primary focus revolves around{" "}
-              <span className="font-semibold tracking-wider text-blue-500 dark:text-blue-700">
+              <span className="font-semibold tracking-wider text-blue-500">
                 React
               </span>{" "}
               and
-              <span className="font-semibold tracking-wider text-blue-500 dark:text-blue-700">
+              <span className="font-semibold tracking-wider text-blue-500">
                 {" "}
                 Next.js
               </span>

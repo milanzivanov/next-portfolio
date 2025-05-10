@@ -24,10 +24,10 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <body
-        className={`${inter.className} dark:text-white text-black flex flex-col antialiased text-grey-800 min-h-screen relative`}
+        className={`${inter.className} flex flex-col antialiased min-h-screen relative`}
       >
         <Providers>
-          <div className="flex-1 shadow-sm bg-slate-700/20">
+          <div className="flex-1 shadow-sm bg-slate-300 dark:bg-slate-900">
             <main className="w-full">
               <Header toggleMobileNav={toggleMobileNav} />
 

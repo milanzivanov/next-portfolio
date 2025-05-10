@@ -28,7 +28,7 @@ function SkillsItems({ skills }) {
       {skills.map((skill, index) => (
         <motion.div
           key={index}
-          className="bg-slate-200 dark:bg-slate-800 text-grey-200 rounded-md shadow-md py-5 px-0 2xl:py-5 2xl:px-3 flex justify-center items-center cursor-not-allowed"
+          className="bg-slate-200 dark:bg-slate-700 text-grey-200 rounded-md shadow-md py-5 px-0 2xl:py-5 2xl:px-3 flex justify-center items-center cursor-not-allowed"
           variants={itemVariants}
         >
           <div className="flex flex-col items-center justify-center">

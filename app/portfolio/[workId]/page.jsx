@@ -26,8 +26,8 @@ async function PortfolioPage({ params }) {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
-        <div className="bg-gray-50 xl:rounded-md p-5 mb-5 shadow-md">
-          <h1 className="text-2xl md:text-3xl mb-3 text-gray-600 font-bold">
+        <div className="bg-surface xl:rounded-md p-5 mb-5 shadow-md">
+          <h1 className="text-2xl md:text-3xl mb-3 text-slate-800 dark:text-slate-100 font-bold">
             {work.title}
           </h1>
           <div className=" flex flex-col md:flex-row">
@@ -35,21 +35,21 @@ async function PortfolioPage({ params }) {
               <DescriptionText text={work.body} work={work.projectTime} />
 
               <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md pl-5 md:pl-0 py-5 mb-5">
-                <h3 className="text-base text-grey-200 dark:text-slate-800 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
+                <h3 className="text-base text-slate-800 dark:text-slate-700 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
                   Technologies used:
                 </h3>
                 <div className="flex flex-wrap">
                   {work.technologiesUsed.map((skill, i) => (
                     <li key={i} className="flex items-center mr-2">
                       <i
-                        className={`${skill.svgIcon} text-blue-500 dark:text-blue-700 devicon text-xl`}
+                        className={`${skill.svgIcon} text-blue-500 devicon text-xl`}
                       ></i>
                     </li>
                   ))}
                 </div>
               </ul>
             </div>
-            <div className="relative flex-1 ">
+            <div className="relative flex-1 border-2 dark:border-slate-700 rounded-md overflow-hidden">
               <Image
                 src={work.src}
                 style={{ width: "auto", height: "auto" }}

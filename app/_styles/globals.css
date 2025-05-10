@@ -30,6 +30,10 @@
   }
 }
 
+.bg-surface {
+  @apply bg-slate-50/20 dark:bg-slate-800;
+}
+
 .active {
   color: #2563eb;
 }
