@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import image1 from "@/public/Milan_right.webp";
-import bg from "@/public/rocket-orange.png";
 
 import "devicon/devicon.min.css";
 import ButtonBack from "../_components/ButtonBack";
@@ -16,7 +15,7 @@ function ContactPage() {
     <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
       <div className="max-w-5xl 2xl:max-w-7xl mx-auto fadeInUp">
         <div className="flex flex-col md:flex-row md:gap-5">
-          <div className="bg-surface flex items-end md:max-w-[350px] shadow-md md:rounded-md">
+          <div className="bg-slate-50/20 dark:bg-slate-800 flex items-end md:max-w-[350px] shadow-md md:rounded-md">
             <Image
               className="object-cover flex-1 md:rounded-md"
               src={image1}

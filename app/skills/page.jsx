@@ -16,7 +16,7 @@ async function SkillsPage() {
     <div className="w-full 2xl:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="w-full">
         <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
-          <div className="flex flex-col bg-surface pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
+          <div className="flex flex-col bg-slate-50/20 dark:bg-slate-800 pt-5 pb-10 px-5 md:mt-5 shadow-md xl:rounded-md">
             <Title text="Technologies" />
 
             <p className="pb-5 text-slate-800 dark:text-slate-100 text-base 2xl:text-lg max-w-5xl">

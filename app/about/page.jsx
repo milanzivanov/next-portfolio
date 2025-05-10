@@ -13,8 +13,8 @@ function AboutPage() {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] h-auto flex flex-col items-center justify-center">
       <div className="max-w-5xl mx-auto fadeInUp">
-        <div className="w-full flex flex-col-reverse md:gap-5 md:flex-row-reverse">
-          <div className="relative bg-surface flex flex-col justify-center rounded-md shadow-md space-y-1 md:space-y-3 p-5">
+        <div className="w-full flex flex-col-reverse gap-5 md:flex-row-reverse">
+          <div className="relative bg-slate-50/20 dark:bg-slate-800 flex flex-col justify-center rounded-md shadow-md space-y-1 md:space-y-3 p-5">
             <Title text="Bit about myself" />
             <p className="text-slate-800 dark:text-slate-100 text-base 2xl:text-lg">
               Hi, I&apos;m Milan an enthusiastic front-end developer with 2+
