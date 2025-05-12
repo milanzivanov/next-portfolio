@@ -26,7 +26,7 @@ async function PortfolioPage({ params }) {
   return (
     <div className="w-full md:h-[calc(100dvh-86px)] flex flex-col items-center justify-center">
       <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
-        <div className="bg-surface xl:rounded-md p-5 mb-5 shadow-md">
+        <div className="bg-slate-50/20 dark:bg-slate-900 xl:rounded-md p-5 mb-5 shadow-md">
           <h1 className="text-2xl md:text-3xl mb-3 text-slate-800 dark:text-slate-100 font-bold">
             {work.title}
           </h1>
@@ -35,7 +35,7 @@ async function PortfolioPage({ params }) {
               <DescriptionText text={work.body} work={work.projectTime} />
 
               <ul className="flex md:flex-row md:items-center flex-col bg-gray-100 md:bg-transparent md:rounded-none md:shadow-none rounded-md shadow-md pl-5 md:pl-0 py-5 mb-5">
-                <h3 className="text-base text-slate-800 dark:text-slate-700 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
+                <h3 className="text-base text-slate-800 dark:text-slate-100 md:text-lg font-semibold tracking-wider mr-3 mb-2 md:mb-0">
                   Technologies used:
                 </h3>
                 <div className="flex flex-wrap">

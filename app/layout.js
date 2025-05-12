@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`${inter.className} flex flex-col antialiased min-h-screen relative`}
       >
         <Providers>
-          <div className="flex-1 shadow-sm bg-slate-300 dark:bg-slate-900">
+          <div className="flex-1 shadow-sm bg-slate-300 dark:bg-slate-800">
             <main className="w-full">
               <Header toggleMobileNav={toggleMobileNav} />
 

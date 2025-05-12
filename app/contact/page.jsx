@@ -16,7 +16,7 @@ function ContactPage() {
     <div className="w-full md:h-[calc(100dvh-86px)] flex md:flex flex-col items-center justify-center">
       <div className="max-w-5xl 2xl:max-w-7xl mx-auto fadeInUp">
         <div className="flex flex-col md:flex-row md:gap-5">
-          <div className="bg-slate-50/20 dark:bg-slate-800 flex items-end md:max-w-[350px] shadow-md md:rounded-md">
+          <div className="bg-slate-50/20 dark:bg-slate-900 flex items-end md:max-w-[350px] shadow-md md:rounded-md">
             <Image
               className="object-cover flex-1 md:rounded-md"
               src={image1}
@@ -26,7 +26,7 @@ function ContactPage() {
             />
           </div>
 
-          <div className="max-w-2xl bg-slate-50/20 dark:bg-slate-800 shadow-md p-5 rounded-md overflow-hidden">
+          <div className="max-w-2xl bg-slate-50/20 dark:bg-slate-900 shadow-md p-5 rounded-md overflow-hidden">
             <Title text="Get in touch with me" />
 
             <p className="text-slate-800 dark:text-slate-100 text-base 2xl:text-lg mb-5">
