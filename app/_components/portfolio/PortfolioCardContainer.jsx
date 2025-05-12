@@ -17,7 +17,7 @@ const containerVariants = {
 function PortfolioCardContainer({ works }) {
   return (
     <motion.div
-      className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 dark:bg-slate-800 p-5 md:rounded-md mb-5"
+      className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 bg-slate-50/20 dark:bg-slate-800 p-5 md:rounded-md mb-5"
       variants={containerVariants}
       initial="hidden"
       animate="show"

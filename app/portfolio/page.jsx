@@ -11,7 +11,7 @@ export const metadata = {
 export default function PortfolioPage() {
   return (
     <div className="max-w-5xl 2xl:max-w-7xl mx-auto">
-      <div className="bg-surface p-5 md:mb-5 mt-0 md:my-5 shadow-md xl:rounded-md">
+      <div className="bg-slate-50/20 dark:bg-slate-800 p-5 md:mb-5 mt-0 md:my-5 shadow-md xl:rounded-md">
         <Title text="Portfolio" />
 
         <p className="text-slate-800 dark:text-slate-100 text-base 2xl:text-lg mb-5 md:mb-10">

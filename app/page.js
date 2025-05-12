@@ -18,14 +18,14 @@ export default function HomePage() {
     <div
       className={`w-full h-[calc(100dvh-86px)] flex items-center justify-center`}
     >
-      <div className="absolute inset-0 z-10 bg-slate-700/30 dark:bg-slate-900"></div>
+      <div className="absolute inset-0 z-10 bg-slate-700/50 dark:bg-slate-900"></div>
       <div className="absolute inset-0 z-0">
         <Image
           src={bg}
           fill
           placeholder="blur"
           quality={80}
-          className="object-cover object-center md:rotate-180"
+          className="object-cover object-center rotate-180"
           alt="mobile phone pancile keybord on the table"
         />
       </div>

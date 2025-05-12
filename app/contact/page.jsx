@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-// import image1 from "@/public/Milan_right.webp";
-import image1 from "@/public/mz.png";
+import image1 from "@/public/Milan_right.webp";
+// import image1 from "@/public/mz.png";
 
 import "devicon/devicon.min.css";
 import ButtonBack from "../_components/ButtonBack";
