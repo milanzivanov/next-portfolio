@@ -58,10 +58,13 @@ function AboutPage() {
               Focused on mastering{" "}
               <span className="font-semibold text-blue-500">Next.js</span> as my
               core frontend framework and building my next career chapter around
-              it 🚀
+              it, while also leveraging{" "}
+              <span className="font-semibold text-blue-500">Sanity</span> as a
+              flexible and powerful headless CMS for content-driven
+              applications. 🚀
             </p>
           </div>
-          <div className="relative pr-5 md:max-w-[350px] flex bg-slate-50/20 dark:bg-slate-900 rounded-md md:shadow-md">
+          <div className="relative pr-5 md:max-w-[450px] flex bg-slate-50/20 dark:bg-slate-900 rounded-md md:shadow-md">
             <Image
               className="object-cover"
               src={bg2}
