@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-// import bg2 from "@/public/coding-58.webp";
-import bg2 from "@/public/coding-4-45.webp";
+import aboutImage from "@/public/coding-about.webp";
 
 import ButtonBack from "../_components/ButtonBack";
 import Title from "../_components/Title";
@@ -67,7 +66,7 @@ function AboutPage() {
           <div className="relative pr-5 md:max-w-[450px] flex bg-slate-50/20 dark:bg-slate-900 rounded-md md:shadow-md">
             <Image
               className="object-cover"
-              src={bg2}
+              src={aboutImage}
               alt="Family sitting around a fire pit in front of cabin"
               quality={80}
             />

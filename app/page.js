@@ -34,7 +34,6 @@ export default function HomePage() {
           <Image
             src={image}
             fill
-            placeholder="blur"
             quality={80}
             className="object-cover object-center"
             alt="mobile phone pancile keybord on the table"
