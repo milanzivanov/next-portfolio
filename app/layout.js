@@ -30,15 +30,14 @@ export default function RootLayout({ children }) {
           <div className="flex-1 shadow-sm bg-slate-300 dark:bg-slate-800">
             <main className="w-full">
               <Header toggleMobileNav={toggleMobileNav} />
-
               <MobileNavigation
                 isOpen={isMobileNavOpen}
                 setMobileNavOpen={setMobileNavOpen}
               />
               {children}
             </main>
-            <SpeedInsights />
           </div>
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
