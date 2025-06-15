@@ -21,7 +21,6 @@ function ContactPage() {
               className="object-cover flex-1 md:rounded-md"
               src={image1}
               alt="milan picture"
-              placeholder="blur"
               quality={80}
             />
           </div>
